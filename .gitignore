@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables — NEVER commit real secrets
+.env
+
+# uv.lock IS committed (reproducible builds) — do NOT gitignore it
+
+# Alembic
+alembic/versions/__pycache__/
+
+# Distribution / packaging
+dist/
+build/
+wheels/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
